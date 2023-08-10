@@ -12,7 +12,7 @@ nav, .hero {
 
 nav {
     margin-bottom: 0;
-    padding: 10px 100px;
+    padding: 10px 300px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -36,7 +36,7 @@ nav h1 {
 
 .hero {
     margin-top: 0;
-    padding: 50px 100px;
+    padding: 50px 300px;
     display: flex;
     justify-content: space-between;
 }
@@ -63,6 +63,8 @@ nav h1 {
 }
 
 .content {
+    padding: 50px;
+    padding-bottom: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -82,9 +84,60 @@ nav h1 {
 .boxes img {
     width: 200px;
     height: 200px;
-    border: 1px solid black;
+    border: 1px solid #3882F6;
+    border-radius: 10px;
 }
 
 .boxes p {
+    text-align: center;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    padding: 40px 300px;
+}
+
+.quote p {
+    text-align: right;
+}
+
+.sign-up {
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    height: 150px;
+    width: 850px;
+    border-radius: 8px;
+}
+
+.sign-up-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.button2 {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    height: 35px;
+    width: 100px;
+}
+
+.footer {
+    padding: 10px;
+    background-color: #1F2937;
+    color: #F9FAF8;
     text-align: center;
 }
