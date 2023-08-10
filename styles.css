@@ -12,9 +12,7 @@ nav, .hero {
 
 nav {
     margin-bottom: 0;
-    padding: 10px;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding: 10px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -38,5 +36,28 @@ nav h1 {
 
 .hero {
     margin-top: 0;
-    padding: 50px;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.button1 {
+    padding: 10px 33px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
 }
