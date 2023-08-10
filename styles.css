@@ -61,3 +61,30 @@ nav h1 {
     border: none;
     border-radius: 8px;
 }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.content-boxes {
+    display: flex;
+    gap: 30px;
+}
+
+.boxes img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.boxes p {
+    text-align: center;
+}
